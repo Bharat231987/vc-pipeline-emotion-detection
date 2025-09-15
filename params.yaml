@@ -1,11 +1,11 @@
 # params.yaml
 
 data_ingestion:
-  test_size: 0.2
+  test_size: 0.3
 
 feature_engineering:
-  max_features: 50
+  max_features: 60
 
 model_building:
   n_estimators: 25
-  learning_rate: 0.1
+  learning_rate: 0.15

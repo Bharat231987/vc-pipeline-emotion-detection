@@ -90,5 +90,6 @@ def main():
         logger.error('Failed to complete the model building process: %s', e)
         print(f"Error: {e}")
 
+
 if __name__ == '__main__':
     main()

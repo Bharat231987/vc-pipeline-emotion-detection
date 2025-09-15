@@ -104,6 +104,7 @@ def main():
     except Exception as e:
         logger.error('Failed to complete the feature engineering process: %s', e)
         print(f"Error: {e}")
+        
 
 if __name__ == '__main__':
     main()
